@@ -1,0 +1,216 @@
+
+/* Class = "UIButton"; normalTitle = "Go to Store"; ObjectID = "0Ci-5w-OYd"; */
+"0Ci-5w-OYd.normalTitle" = "去商店";
+
+/* Class = "UINavigationItem"; title = "Contact"; ObjectID = "1FP-2W-xKE"; */
+"1FP-2W-xKE.title" = "联系";
+
+/* Class = "UILabel"; text = "JOB BOARD"; ObjectID = "27v-Gc-3pH"; */
+"27v-Gc-3pH.text" = "职位公告板";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "2KJ-6a-u1e"; */
+"2KJ-6a-u1e.text" = "描述";
+
+/* Class = "UILabel"; text = "Metro:"; ObjectID = "2MP-6Y-Act"; */
+"2MP-6Y-Act.text" = "地铁:";
+
+/* Class = "UISearchBar"; placeholder = "Search Stores"; ObjectID = "3Df-Ip-7Zl"; */
+"3Df-Ip-7Zl.placeholder" = "搜索商店";
+
+/* Class = "UIButton"; normalTitle = "STORES"; ObjectID = "5Uj-6d-gsp"; */
+"5Uj-6d-gsp.normalTitle" = "商店";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "6Ha-YA-2cu"; */
+"6Ha-YA-2cu.normalTitle" = "提交";
+
+/* Class = "UIButton"; normalTitle = "Pinterest"; ObjectID = "7Fx-n0-NZc"; */
+"7Fx-n0-NZc.normalTitle" = "Pinterest";
+
+/* Class = "UINavigationItem"; title = "Map"; ObjectID = "8VR-6H-mGr"; */
+"8VR-6H-mGr.title" = "地图";
+
+/* Class = "UINavigationItem"; title = "Feedback"; ObjectID = "BRK-WA-8h0"; */
+"BRK-WA-8h0.title" = "反馈";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "DDi-Sz-cQS"; */
+"DDi-Sz-cQS.text" = "描述";
+
+/* Class = "UINavigationItem"; title = "Events"; ObjectID = "DlF-VP-LnG"; */
+"DlF-VP-LnG.title" = "活动";
+
+/* Class = "UIViewController"; title = "Metro"; ObjectID = "Ib7-tg-ADT"; */
+"Ib7-tg-ADT.title" = "地铁";
+
+/* Class = "UILabel"; text = "Cinema"; ObjectID = "Jyx-R0-EaD"; */
+"Jyx-R0-EaD.text" = "电影";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Kxu-rq-b3E"; */
+"Kxu-rq-b3E.text" = "名字";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "L8S-XE-kYf"; */
+"L8S-XE-kYf.text" = "标题";
+
+/* Class = "UITextView"; text = "Montreal underground was born following a vision: to make Montreal a more accessible attractive and affordable city for citizens, visitors and tourists without having to use a car. In Montreal, public transit is fast, safe and very clean. Knowing that the inner city of Montreal is one of the largest in the world, in MontrealSouterran.ca, we encourage shops, boutiques, services and attractions close to a metro or located in the underground network with a length of 33 Km in order to show that it is possible to go to the restaurant, to entertain, to cultivate while moving in an ecological way. Thus one escapes the intense cold of winter, traffic jams, summer heat waves and contributes to improve the air quality of the city and all without having to use his car. The Montreal Souterrain logo is made in the image of Montreal: city of colors, countless festivities, infinitely multicultural, and over the seasons the logo is transformed and takes on the colors of the seasons."; ObjectID = "LV8-EB-N6a"; */
+"LV8-EB-N6a.text" = "蒙特利尔地下诞生是根据愿景诞生的：使蒙特利尔成为公民，游客和游客更加易于吸引和负担得起的城市，而无需使用汽车。 在蒙特利尔，公共交通是快速，安全和非常干净的。 知道蒙特利尔内城是世界上最大的城市之一，在MontrealSouterran.ca，我们鼓励商店，精品店，服务和景点靠近地铁或位于地下网络，长度为33公里，以展示 有可能去生活方式去餐厅，娱乐，耕种。 因此，一个人逃脱冬天的强烈寒冷，交通堵塞，夏季热浪，有助于改善城市的空气质量，而不用使用他的车。 蒙特利尔Souterrain标志以蒙特利尔的形象制成：城市的颜色，无数的庆祝活动，无限多元文化，以及标志转变的季节，并呈现季节的色彩。";
+
+/* Class = "UIButton"; normalTitle = "AR View"; ObjectID = "LW0-Jc-IJi"; */
+"LW0-Jc-IJi.normalTitle" = "增强现实视图";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Lhz-0M-nPB"; */
+"Lhz-0M-nPB.text" = "标签";
+
+/* Class = "UIButton"; normalTitle = "MAP"; ObjectID = "Lt4-4P-rqb"; */
+"Lt4-4P-rqb.normalTitle" = "地图";
+
+/* Class = "UILabel"; text = "ShopName"; ObjectID = "N4m-R6-vjI"; */
+"N4m-R6-vjI.text" = "店名";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "NF1-8c-V4j"; */
+"NF1-8c-V4j.normalTitle" = "分享";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NGT-Qb-L94"; */
+"NGT-Qb-L94.text" = "标签";
+
+/* Class = "UILabel"; text = "Type: "; ObjectID = "Naz-hX-2Gf"; */
+"Naz-hX-2Gf.text" = "类型: ";
+
+/* Class = "UIButton"; normalTitle = "G+"; ObjectID = "Nou-Ws-Evd"; */
+"Nou-Ws-Evd.normalTitle" = "G+";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "P8I-N9-094"; */
+"P8I-N9-094.placeholder" = "名字";
+
+/* Class = "UIButton"; normalTitle = "Get Direction"; ObjectID = "PFB-Gj-X6n"; */
+"PFB-Gj-X6n.normalTitle" = "获取方向";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "PKU-Qh-m81"; */
+"PKU-Qh-m81.normalTitle" = "分享";
+
+/* Class = "UIButton"; normalTitle = "Email"; ObjectID = "PkU-g4-J0Q"; */
+"PkU-g4-J0Q.normalTitle" = "电子邮件";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "QGT-0d-7fj"; */
+"QGT-0d-7fj.text" = "名字";
+
+/* Class = "UILabel"; text = "LEARN MORE"; ObjectID = "QTk-sV-kvG"; */
+"QTk-sV-kvG.text" = "学到更多";
+
+/* Class = "UILabel"; text = "100 m"; ObjectID = "Sh6-nu-HIY"; */
+"Sh6-nu-HIY.text" = "100 m";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "T32-qL-x37"; */
+"T32-qL-x37.text" = "名字";
+
+/* Class = "UIButton"; normalTitle = "FACEBOOK"; ObjectID = "Ud4-F0-nVE"; */
+"Ud4-F0-nVE.normalTitle" = "FACEBOOK";
+
+/* Class = "UINavigationItem"; title = "Facebook"; ObjectID = "V9b-9b-Sgm"; */
+"V9b-9b-Sgm.title" = "Facebook";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WVc-P5-IpS"; */
+"WVc-P5-IpS.text" = "标签";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "Y3N-9a-bvy"; */
+"Y3N-9a-bvy.placeholder" = "电话号码";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "a7B-JC-Fz4"; */
+"a7B-JC-Fz4.text" = "标签";
+
+/* Class = "UILabel"; text = "5+"; ObjectID = "aTp-cJ-GdM"; */
+"aTp-cJ-GdM.text" = "5+";
+
+/* Class = "UILabel"; text = "Montreal"; ObjectID = "b23-FT-E81"; */
+"b23-FT-E81.text" = "蒙特利尔";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bm0-JJ-CBQ"; */
+"bm0-JJ-CBQ.text" = "标签";
+
+/* Class = "UIButton"; normalTitle = "Call"; ObjectID = "cbu-nT-lc6"; */
+"cbu-nT-lc6.normalTitle" = "打电话";
+
+/* Class = "UITextView"; text = "Message"; ObjectID = "cyK-zb-KZg"; */
+"cyK-zb-KZg.text" = "内容";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "czr-R3-3Pr"; */
+"czr-R3-3Pr.text" = "标签";
+
+/* Class = "UIButton"; normalTitle = "TW"; ObjectID = "f8v-5U-pHH"; */
+"f8v-5U-pHH.normalTitle" = "TW";
+
+/* Class = "UILabel"; text = "Underground"; ObjectID = "fiG-qU-S0e"; */
+"fiG-qU-S0e.text" = "地下城";
+
+/* Class = "UIButton"; normalTitle = "FB"; ObjectID = "gV7-RH-Rnl"; */
+"gV7-RH-Rnl.normalTitle" = "FB";
+
+/* Class = "UIButton"; normalTitle = "Go to Store"; ObjectID = "gsh-lO-y3l"; */
+"gsh-lO-y3l.normalTitle" = "去商店";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gvt-HI-sNR"; */
+"gvt-HI-sNR.text" = "标签";
+
+/* Class = "UIButton"; disabledTitle = "No Compass"; ObjectID = "hZ9-Qs-AAu"; */
+"hZ9-Qs-AAu.disabledTitle" = "没有指南针";
+
+/* Class = "UIButton"; normalTitle = "Magnetic N"; ObjectID = "hZ9-Qs-AAu"; */
+"hZ9-Qs-AAu.normalTitle" = "磁北";
+
+/* Class = "UIButton"; selectedTitle = "Geograph N"; ObjectID = "hZ9-Qs-AAu"; */
+"hZ9-Qs-AAu.selectedTitle" = "地理北方";
+
+/* Class = "UIButton"; normalTitle = "RENT A SPACE"; ObjectID = "iiP-FI-cSd"; */
+"iiP-FI-cSd.normalTitle" = "租个空间";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "jC8-O5-qqG"; */
+"jC8-O5-qqG.text" = "关于我们";
+
+/* Class = "UIButton"; normalTitle = "View Event Details"; ObjectID = "ky6-0s-8h6"; */
+"ky6-0s-8h6.normalTitle" = "查看事件详细信息";
+
+/* Class = "UILabel"; text = "Working Hours"; ObjectID = "lF2-ut-WRV"; */
+"lF2-ut-WRV.text" = "工作时间";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lke-19-vMN"; */
+"lke-19-vMN.text" = "标签";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mCX-if-yfp"; */
+"mCX-if-yfp.text" = "标签";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "mjw-jK-hns"; */
+"mjw-jK-hns.placeholder" = "电子邮件地址";
+
+/* Class = "UILabel"; text = "Mall: "; ObjectID = "n13-Xr-nMF"; */
+"n13-Xr-nMF.text" = "购物中心: ";
+
+/* Class = "UINavigationItem"; title = "Metro"; ObjectID = "ncv-Jd-FRA"; */
+"ncv-Jd-FRA.title" = "地铁";
+
+/* Class = "UIButton"; normalTitle = "LinkedIn"; ObjectID = "nfg-c5-h95"; */
+"nfg-c5-h95.normalTitle" = "LinkedIn";
+
+/* Class = "UITextView"; text = "Commercial space for rent in the Montreal's underground city Benefit from the great traffic and all the advantages by renting a commercial space in one of the towers connected to the vast underground network of Montreal"; ObjectID = "pmb-N1-a9O"; */
+"pmb-N1-a9O.text" = "蒙特利尔地下街商业店铺出租 在蒙特利尔庞大的地下网络租用一间塔楼连接的商业店铺,享有人流量大等所有优势";
+
+/* Class = "UIButton"; normalTitle = "LOCATION"; ObjectID = "qmE-sC-GG1"; */
+"qmE-sC-GG1.normalTitle" = "位置";
+
+/* Class = "UIButton"; normalTitle = "Call"; ObjectID = "qt7-sd-TBK"; */
+"qt7-sd-TBK.normalTitle" = "打电话";
+
+/* Class = "UIButton"; normalTitle = "CONTACT"; ObjectID = "tgs-cm-Siq"; */
+"tgs-cm-Siq.normalTitle" = "联系";
+
+/* Class = "UIButton"; normalTitle = "View Offer Details"; ObjectID = "uWh-ev-iaH"; */
+"uWh-ev-iaH.normalTitle" = "查看优惠详情";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "wQD-iI-gK4"; */
+"wQD-iI-gK4.title" = "主页";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wwo-Lz-pVl"; */
+"wwo-Lz-pVl.text" = "标签";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xM6-P6-Yix"; */
+"xM6-P6-Yix.text" = "标签";
+
+/* Class = "UINavigationItem"; title = "Promotion"; ObjectID = "xdS-1F-10x"; */
+"xdS-1F-10x.title" = "促销";

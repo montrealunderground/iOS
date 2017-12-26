@@ -1,0 +1,171 @@
+
+/* Class = "UINavigationItem"; title = "Contact"; ObjectID = "1FP-2W-xKE"; */
+"1FP-2W-xKE.title" = "Contact";
+
+/* Class = "UILabel"; text = "JOB BOARD"; ObjectID = "27v-Gc-3pH"; */
+"27v-Gc-3pH.text" = "Offres d'emploi";
+
+/* Class = "UILabel"; text = "Metro:"; ObjectID = "2MP-6Y-Act"; */
+"2MP-6Y-Act.text" = "Metro:";
+
+/* Class = "UIButton"; normalTitle = "STORES"; ObjectID = "5Uj-6d-gsp"; */
+"5Uj-6d-gsp.normalTitle" = "MAGASINS";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "6Ha-YA-2cu"; */
+"6Ha-YA-2cu.normalTitle" = "Soumettre";
+
+/* Class = "UIButton"; normalTitle = "Pinterest"; ObjectID = "7Fx-n0-NZc"; */
+"7Fx-n0-NZc.normalTitle" = "Pinterest";
+
+/* Class = "UINavigationItem"; title = "Underground Map"; ObjectID = "8VR-6H-mGr"; */
+"8VR-6H-mGr.title" = "Carte Souterraine";
+
+/* Class = "UINavigationItem"; title = "Feedback"; ObjectID = "BRK-WA-8h0"; */
+"BRK-WA-8h0.title" = "Commentaire";
+
+/* Class = "UINavigationItem"; title = "Events"; ObjectID = "DlF-VP-LnG"; */
+"DlF-VP-LnG.title" = "Événements";
+
+/* Class = "UILabel"; text = "Cinema"; ObjectID = "Jyx-R0-EaD"; */
+"Jyx-R0-EaD.text" = "Cinéma";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "L8S-XE-kYf"; */
+"L8S-XE-kYf.text" = "Titre";
+
+/* Class = "UITextView"; text = "Montreal underground was born following a vision: to make Montreal a more accessible attractive and affordable city for citizens, visitors and tourists without having to use a car. In Montreal, public transit is fast, safe and very clean. Knowing that the inner city of Montreal is one of the largest in the world, in MontrealSouterran.ca, we encourage shops, boutiques, services and attractions close to a metro or located in the underground network with a length of 33 Km in order to show that it is possible to go to the restaurant, to entertain, to cultivate while moving in an ecological way. Thus one escapes the intense cold of winter, traffic jams, summer heat waves and contributes to improve the air quality of the city and all without having to use his car. The Montreal Souterrain logo is made in the image of Montreal: city of colors, countless festivities, infinitely multicultural, and over the seasons the logo is transformed and takes on the colors of the seasons."; ObjectID = "LV8-EB-N6a"; */
+"LV8-EB-N6a.text" = "Le métro de Montréal est né à la suite d'une vision: faire de Montréal une ville attrayante et abordable plus accessible aux citoyens, aux visiteurs et aux touristes sans avoir à utiliser une voiture. À Montréal, le transport en commun est rapide, sûr et très propre. Sachant que le centre-ville de Montréal est l'un des plus grands au monde, à MontréalSouterran.ca, nous encourageons les boutiques, les boutiques, les services et les attractions à proximité d'un métro ou situé dans le réseau souterrain d'une longueur de 33 Km afin de montrer Qu'il est possible d'aller au restaurant, de divertir, de cultiver tout en se déplaçant d'une manière écologique. Ainsi s'échappe le froid intense de l'hiver, les embouteillages, les vagues de chaleur d'été et contribue à améliorer la qualité de l'air de la ville et tout sans avoir à utiliser sa voiture. Le logo du Souterrain de Montréal est réalisé à l'image de Montréal: ville de couleurs, innombrables festivités, infiniment multiculturelle, et au fil des saisons, le logo se transforme et prend les couleurs des saisons.";
+
+/* Class = "UIButton"; normalTitle = "AR View"; ObjectID = "LW0-Jc-IJi"; */
+"LW0-Jc-IJi.normalTitle" = "VUE AR";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Lhz-0M-nPB"; */
+"Lhz-0M-nPB.text" = "Étiquette";
+
+/* Class = "UIButton"; normalTitle = "MAP"; ObjectID = "Lt4-4P-rqb"; */
+"Lt4-4P-rqb.normalTitle" = "CARTE";
+
+/* Class = "UILabel"; text = "ShopName"; ObjectID = "N4m-R6-vjI"; */
+"N4m-R6-vjI.text" = "Nom de la boutique";
+
+/* Class = "UILabel"; text = "Type: "; ObjectID = "Naz-hX-2Gf"; */
+"Naz-hX-2Gf.text" = "Type: ";
+
+/* Class = "UIButton"; normalTitle = "G+"; ObjectID = "Nou-Ws-Evd"; */
+"Nou-Ws-Evd.normalTitle" = "G+";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "P8I-N9-094"; */
+"P8I-N9-094.placeholder" = "Prénom";
+
+/* Class = "UIButton"; normalTitle = "Email"; ObjectID = "PkU-g4-J0Q"; */
+"PkU-g4-J0Q.normalTitle" = "Email";
+
+/* Class = "UILabel"; text = "LEARN MORE"; ObjectID = "QTk-sV-kvG"; */
+"QTk-sV-kvG.text" = "Apprendre encore plus";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "T32-qL-x37"; */
+"T32-qL-x37.text" = "Prénom";
+
+/* Class = "UIButton"; normalTitle = "FACEBOOK"; ObjectID = "Ud4-F0-nVE"; */
+"Ud4-F0-nVE.normalTitle" = "FACEBOOK";
+
+/* Class = "UINavigationItem"; title = "Facebook"; ObjectID = "V9b-9b-Sgm"; */
+"V9b-9b-Sgm.title" = "Facebook";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WVc-P5-IpS"; */
+"WVc-P5-IpS.text" = "Étiquette";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "Y3N-9a-bvy"; */
+"Y3N-9a-bvy.placeholder" = "Numéro de téléphone";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "a7B-JC-Fz4"; */
+"a7B-JC-Fz4.text" = "Étiquette";
+
+/* Class = "UILabel"; text = "5+"; ObjectID = "aTp-cJ-GdM"; */
+"aTp-cJ-GdM.text" = "5+";
+
+/* Class = "UILabel"; text = "Montreal"; ObjectID = "b23-FT-E81"; */
+"b23-FT-E81.text" = "Montréal";
+
+/* Class = "UINavigationItem"; title = "Metro"; ObjectID = "bEp-L3-aGC"; */
+"bEp-L3-aGC.title" = "Metro";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bm0-JJ-CBQ"; */
+"bm0-JJ-CBQ.text" = "Étiquette";
+
+/* Class = "UITextView"; text = "Message"; ObjectID = "cyK-zb-KZg"; */
+"cyK-zb-KZg.text" = "Message";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "czr-R3-3Pr"; */
+"czr-R3-3Pr.text" = "Étiquette";
+
+/* Class = "UIButton"; normalTitle = "TW"; ObjectID = "f8v-5U-pHH"; */
+"f8v-5U-pHH.normalTitle" = "TW";
+
+/* Class = "UILabel"; text = "Underground"; ObjectID = "fiG-qU-S0e"; */
+"fiG-qU-S0e.text" = "Souterrain";
+
+/* Class = "UIButton"; normalTitle = "FB"; ObjectID = "gV7-RH-Rnl"; */
+"gV7-RH-Rnl.normalTitle" = "FB";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gvt-HI-sNR"; */
+"gvt-HI-sNR.text" = "Étiquette";
+
+/* Class = "UIButton"; disabledTitle = "Kein Kompass"; ObjectID = "hZ9-Qs-AAu"; */
+"hZ9-Qs-AAu.disabledTitle" = "Pas de boussole";
+
+/* Class = "UIButton"; normalTitle = "Magnetisch N"; ObjectID = "hZ9-Qs-AAu"; */
+"hZ9-Qs-AAu.normalTitle" = "Magnétique N";
+
+/* Class = "UIButton"; selectedTitle = "Geographisch N"; ObjectID = "hZ9-Qs-AAu"; */
+"hZ9-Qs-AAu.selectedTitle" = "Géographiquement N";
+
+/* Class = "UIButton"; normalTitle = "RENT A SPACE"; ObjectID = "iiP-FI-cSd"; */
+"iiP-FI-cSd.normalTitle" = "LOCATION D'UN ESPACE";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "jC8-O5-qqG"; */
+"jC8-O5-qqG.text" = "À propos de nous";
+
+/* Class = "UIButton"; normalTitle = "View Event Details"; ObjectID = "ky6-0s-8h6"; */
+"ky6-0s-8h6.normalTitle" = "Afficher l'événement";
+
+/* Class = "UILabel"; text = "Working Hours"; ObjectID = "lF2-ut-WRV"; */
+"lF2-ut-WRV.text" = "Heures de travail";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lke-19-vMN"; */
+"lke-19-vMN.text" = "Étiquette";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mCX-if-yfp"; */
+"mCX-if-yfp.text" = "Étiquette";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "mjw-jK-hns"; */
+"mjw-jK-hns.placeholder" = "Adresse Email";
+
+/* Class = "UILabel"; text = "Mall: "; ObjectID = "n13-Xr-nMF"; */
+"n13-Xr-nMF.text" = "Centre commercial: ";
+
+/* Class = "UIButton"; normalTitle = "LinkedIn"; ObjectID = "nfg-c5-h95"; */
+"nfg-c5-h95.normalTitle" = "LinkedIn";
+
+/* Class = "UITextView"; text = "Commercial space for rent in the Montreal's underground city Benefit from the great traffic and all the advantages by renting a commercial space in one of the towers connected to the vast underground network of Montreal"; ObjectID = "pmb-N1-a9O"; */
+"pmb-N1-a9O.text" = "Espace commercial à louer dans la ville souterraine de Montréal Profitez du grand trafic et de tous les avantages en louant un espace commercial dans l'une des tours reliées au vaste réseau souterrain de Montréal";
+
+/* Class = "UIButton"; normalTitle = "LOCATION"; ObjectID = "qmE-sC-GG1"; */
+"qmE-sC-GG1.normalTitle" = "EMPLACEMENT";
+
+/* Class = "UIButton"; normalTitle = "CONTACT"; ObjectID = "tgs-cm-Siq"; */
+"tgs-cm-Siq.normalTitle" = "CONTACT";
+
+/* Class = "UIButton"; normalTitle = "View Offer Details"; ObjectID = "uWh-ev-iaH"; */
+"uWh-ev-iaH.normalTitle" = "Voir l'offre";
+
+/* Class = "UINavigationItem"; title = "Montreal Underground"; ObjectID = "wQD-iI-gK4"; */
+"wQD-iI-gK4.title" = "Montréal Souterrain";
+
+/* Class = "UIViewController"; title = "Metro"; ObjectID = "wlf-Y8-ACw"; */
+"wlf-Y8-ACw.title" = "Metro";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xM6-P6-Yix"; */
+"xM6-P6-Yix.text" = "Étiquette";
+
+/* Class = "UINavigationItem"; title = "Promotion"; ObjectID = "xdS-1F-10x"; */
+"xdS-1F-10x.title" = "Promotion";

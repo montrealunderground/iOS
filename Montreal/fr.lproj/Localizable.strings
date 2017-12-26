@@ -1,0 +1,108 @@
+/*
+  Localizable.strings
+  Montreal
+
+  Created by William Andersson on 3/12/17.
+  Copyright © 2017 William Andersson. All rights reserved.
+*/
+
+//Left Menu Controller
+"Home" = "Accueil";
+"Underground Map" = "Carte Souterraine";
+"Metro Plan" = "Plan Du Métro";
+"Events" = "Événements";
+"Promotions" = "Promotions";
+"Facebook page" = "Page Facebook";
+"Feedback" = "Commentaire";
+"Contact us" = "Nous joindre";
+
+//Home Controller
+"Underground Map" = "Carte Souterraine";
+"AR View" = "Vue AR";
+"Shopping Malls" = "Centre Commercial";
+"Restaurants" = "Restaurants";
+"Boutiques" = "Boutiques";
+"Beauty & Health" = "Beauté et santé";
+"Attractions" = "Attractions";
+"Services & Jobs" = "Service et Emploi";
+"Hotels" = "Hotels";
+"Events" = "Événements";
+"Promotions" = "Promotions";
+
+"Restaurant" = "Restaurant";
+"Boutique" = "Boutique";
+"Attraction" = "Attraction";
+
+//ShoppingView Controller
+"Shopping Malls" = "Centre Commercial";
+
+//All Malls Controller
+"ALL MALLS" = "TOUS LES CENTRES";
+"RENT A SPACE" = "LOUER UN ESPACE";
+
+"All" = "Tout";
+//Places Controller
+"ALL" = "TOUS";
+"BY METRO" = "PAR METRO";
+"BY MALL" = "PAR CENTRE";
+
+//Jobs View Controller
+"Jobs" = "Offres D'emploi";
+"Parking" = "Stationnement intérieur";
+"Free WiFi" = "WiFi Gratuit";
+"Daily Lockers" = "Casiers pour la journée";
+
+//AR View Controllers
+"Go to Store" = "Aller au magasin";
+"Dismiss" = "Rejeter";
+
+"No access to location" = "Pas d'accès à l'emplacement";
+"Your location can not be displayed.\n\nGo to the settings to allow access." = "Impossible d'afficher votre position.\n\nAccédez aux paramètres pour autoriser l'accès.";
+"Settings" = "Paramètres";
+"Location" = "Emplacement";
+
+"Offer Detail" = "Détails de l'offre";
+
+"Subject" = "Assujettir";
+"Some Text" = "Quelques textes";
+
+"Cannot open the website" = "Impossible d'ouvrir le site";
+"URL not specified" = "URL non spécifiée";
+
+"OK" = "D'accord";
+"Cancel" = "Annuler";
+"Balance" = "Total";
+
+"SIGNING IN GOOGLE" = "SIGNATURE AVEC GOOGLE";
+"SIGNING IN FACEBOOK" = "SIGNATURE AVEC FACEBOOK";
+
+"Facebook Post failed" = "Le message Facebook a échoué";
+"You do have to Sign in Facebook to post." = "Vous devez vous connecter à Facebook pour poster.";
+
+"Settings" = "Paramètres";
+
+"UnderCoins Store" = "Boutique UnderCoins";
+
+"You don't have enough coins to redeem this item." = "Vous n'avez pas assez de pièces pour échanger cet élément.";
+"Do you really want to get more coins by watching the video?" = "Voulez-vous vraiment obtenir plus de pièces de monnaie en regardant la vidéo?";
+"Redeem Under Coin Item" = "Échangez sous l'article de monnaie";
+"Do you really want to buy this item?" = "Voulez-vous vraiment acheter cet article?";
+
+"No" = "Non";
+
+"Montreal Underground City" = "Montreal Souterraine";
+
+"You have been rewarded!" = "Vous avez été récompensé!";
+"You got 10 coins." = "Vous avez 10 pièces.";
+
+"You have redeemed %@" = "Vous avez échangé %@";
+"Redeem Success" = "Échangez le succès";
+"Redeem Success" = "Échangez le succès";
+
+//API
+"http://montrealsouterrain.com/api/" = "http://montrealsouterrain.com/api_fr/";
+
+//ADS UNIT ID
+"ca-app-pub-5420876778958572/3023558642" = "ca-app-pub-5420876778958572/6895355045";
+"ca-app-pub-5420876778958572/8930491446" = "ca-app-pub-5420876778958572/8232487446";
+"ca-app-pub-5420876778958572/8071873440" = "ca-app-pub-5420876778958572/9548606643";

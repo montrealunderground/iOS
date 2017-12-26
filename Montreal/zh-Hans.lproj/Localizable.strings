@@ -1,0 +1,109 @@
+/*
+  Localizable.strings
+  Montreal
+
+  Created by William Andersson on 3/12/17.
+  Copyright © 2017 William Andersson. All rights reserved.
+*/
+
+//Left Menu Controller
+"Home" = "主页";
+"Underground Map" = "地铁线路图";
+"Metro Plan" = "地铁平面图";
+"Events" = "活动";
+"Promotions" = "促销";
+"Facebook page" = "Facebook页面";
+"Feedback" = "反馈";
+"Contact us" = "联系我们";
+
+//Home Controller
+"Underground Map" = "地铁线路图";
+"AR View" = "增强现实视图";
+"Shopping Malls" = "购物中心";
+"Restaurants" = "饭店";
+"Boutiques" = "精品店";
+"Beauty & Health" = "美容院";
+"Attractions" = "旅游景点";
+"Services & Jobs" = "服务 & 工作";
+"Hotels" = "酒店";
+"Events" = "活动";
+"Promotions" = "促销";
+
+"Restaurant" = "饭店";
+"Boutique" = "精品";
+"Attraction" = "旅游景点";
+
+//ShoppingView Controller
+"Shopping Malls" = "购物中心";
+
+//All Malls Controller
+"ALL MALLS" = "所有商场";
+"RENT A SPACE" = "租个空间";
+
+"All" = "全部";
+//Places Controller
+"ALL" = "全部";
+"BY METRO" = "乘坐地铁";
+"BY MALL" = "经过购物中心";
+
+//Jobs View Controller
+"Jobs" = "工作";
+"Parking" = "停車處";
+"Free WiFi" = "免费 WiFi";
+"Daily Lockers" = "每日储物柜";
+
+//AR View Controllers
+"Go to Store" = "去商店";
+"Dismiss" = "解雇";
+
+"No access to location" = "无法访问位置";
+"Your location can not be displayed.\n\nGo to the settings to allow access." = "您的位置无法显示。\n\n转到设置以允许访问。";
+"Settings" = "设置";
+"Location" = "位置";
+
+"Offer Detail" = "优惠详情";
+
+"Subject" = "主题";
+"Some Text" = "一些文字";
+
+"Cannot open the website" = "无法打开网站";
+"URL not specified" = "未指定网址";
+
+"OK" = "好";
+"Balance" = "平衡";
+
+"SIGNING IN GOOGLE" = "用GOOGLE登录";
+"SIGNING IN FACEBOOK" = "用FACEBOOK登录";
+
+"Facebook Post failed" = "Facebook发布失败";
+"You do have to Sign in Facebook to post." = "你必须登录Facebook发表。";
+
+"Settings" = "设置";
+"Cancel" = "取消";
+
+"UnderCoins Store" = "底线 商店";
+
+"You don't have enough coins to redeem this item." = "你没有足够的硬币赎回这个项目。";
+"Do you really want to get more coins by watching the video?" = "你真的想通过观看视频获得更多的硬币吗？";
+"Redeem Under Coin Item" = "兑现硬币项目";
+"Do you really want to buy this item?" = "你真的想买这个商品吗？";
+
+"No" = "不";
+
+"Montreal Underground City" = "蒙特利尔地下城";
+
+"You have been rewarded!" = "你已经被奖励了！";
+"You got 10 coins." = "你有10个硬币。";
+
+"You have redeemed %@" = "你已经兑换了 %@";
+"Redeem Success" = "兑换成功";
+"Redeem Failed" = "兑换成功";
+
+
+//API
+"http://montrealsouterrain.com/api/" = "http://montrealsouterrain.com/api_cn/";
+
+//ADS UNIT ID
+"ca-app-pub-5420876778958572/3023558642" = "ca-app-pub-5420876778958572/6895355045";
+"ca-app-pub-5420876778958572/8930491446" = "ca-app-pub-5420876778958572/8232487446";
+"ca-app-pub-5420876778958572/8071873440" = "ca-app-pub-5420876778958572/8071873440";

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vgconfig version="2">
+  <init mode="mapMode"/>
+  <flags>
+    <flag name="distanceFactor" value="0.1"/>
+    <flag name="noUnload" value="1"/>
+    <flag name="mapDebugLabels" value="0"/>
+    <flag name="mapLabelOrientation" value="eFaceUpOrDown"/>
+    <flag name="updateFrameRateLimit" value="-1"/>
+    <flag name="renderFrameRateLimit" value="-1"/>
+  </flags>
+  <vg2DManipulator maxAltitude="2000.0" minAltitude="20" doubleFingerYawing="on" doubleFingerPitching="off"/>
+  <camera pitch="-55.0" yaw="-98.468348"/>
+  <resources>
+    <databases>
+      <database resource="visioislandessential.20160822.sqlite"/>
+    </databases>
+    <textures>
+      <texture id="eBackground" resource="background.png"/>
+    </textures>
+    <models>
+      <model id="Aeroport" resource="Aeroport.vsg4"/>
+      <model id="ArbreA" resource="ArbreA.vsg4"/>
+      <model id="ArbreB" resource="ArbreB.vsg4"/>
+      <model id="ArbreC" resource="ArbreC.vsg4"/>
+      <model id="AvionOK" resource="AvionOK.vsg4"/>
+      <model id="Mall" resource="Mall.vsg4"/>
+      <model id="Musee" resource="Musee.vsg4"/>
+      <model id="Officev3" resource="Officev3.vsg4"/>
+    </models>
+  </resources>
+  <datasets>
+    <dataset name="0" pickTags="floor" dynamicClipping="on">
+      <background resource="eBackground" scaleMode="eExactFit" color1="0xffffffff" color2="0xffffffff"/>
+      <camera x="274.0" y="45.0" height="263.0"/>
+      <layer name="B1-UL00" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B1-UL00.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B2-LL01" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B2-LL01.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B2-UL00" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B2-UL00.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B2-UL01" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B2-UL01.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B3-LL01" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B3-LL01.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B3-UL00" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B3-UL00.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B3-UL01" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B3-UL01.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B4-UL00" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B4-UL00.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B4-UL01" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B4-UL01.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B4-UL02" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B4-UL02.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B4-UL03" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B4-UL03.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B4-UL04" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B4-UL04.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="B4-UL05" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.B4-UL05.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+			</layer>
+      <layer name="outside" semanticTag="floor" type="VgSimpleLayer" archive="data/visioislandessential.outside.20160822.bin" distancePolicy="eWorldAxisZ" LODFactor="0.01" loadFactor="0.01">
+        <model id="B2" resource="Aeroport" transform="translate(103.242228576,-130.68046825143,0)*rotateZ(101.71)*scale(0.59537905604608,0.59537905604608,0.59537905604608)"/>
+        <model resource="AvionOK" transform="translate(101.0066805622,-179.4360808795,0)*rotateZ(-41.563829242389)*scale(1.0133510503771,1.0133510503771,1.0133510503771)"/>
+        <model resource="AvionOK" transform="translate(135.39969846798,-148.49882756755,0)*rotateZ(-46.333997594709)*scale(1.0133488479291,1.0133488479291,1.0133488479291)"/>
+        <model resource="AvionOK" transform="translate(150.63261002491,-132.23474770559,0)*rotateZ(-48.370683298088)*scale(1.0133486752994,1.0133486752994,1.0133486752994)"/>
+        <model resource="AvionOK" transform="translate(165.140741984,-113.18074160451,0)*rotateZ(-60.785475575927)*scale(1.0133486314801,1.0133486314801,1.0133486314801)"/>
+        <model resource="AvionOK" transform="translate(177.76906819468,-151.62532603859,0)*rotateZ(55.698776398534)*scale(0.99476678595172,0.99476678595172,0.99476678595172)"/>
+        <model resource="ArbreB" transform="translate(159.72436030456,-42.148208427828,0)*rotateZ(101.71)*scale(0.63808171933633,0.63808171933633,0.63808171933633)"/>
+        <model resource="ArbreA" transform="translate(162.48053654488,-72.661143310538,0)*rotateZ(101.71)*scale(1.0447325076682,1.0447325076682,1.0447325076682)"/>
+        <model resource="ArbreC" transform="translate(142.89729864735,-55.840093893177,0)*rotateZ(101.71)*scale(0.65849317064169,0.65849317064169,0.65849317064169)"/>
+        <model resource="ArbreC" transform="translate(102.20730178176,19.594173059142,0)*rotateZ(135.83727386484)*scale(0.65849189273635,0.65849189273635,0.65849189273635)"/>
+        <model resource="ArbreB" transform="translate(119.14235205284,4.7950108866682,0)*rotateZ(-12.565214771157)*scale(0.63808248044925,0.63808248044925,0.63808248044925)"/>
+        <model resource="ArbreA" transform="translate(6.6343396102906,239.91545725029,0)*rotateZ(174.69735804818)*scale(0.9141411220644,0.9141411220644,0.9141411220644)"/>
+        <model resource="ArbreB" transform="translate(-183.33429247448,19.63140674724,0)*rotateZ(53.673016132878)*scale(0.72923666321316,0.72923666321316,0.72923666321316)"/>
+        <model resource="ArbreA" transform="translate(-193.01446124758,86.254638745267,0)*rotateZ(-60.766913175381)*scale(0.91413741774869,0.91413741774869,0.91413741774869)"/>
+        <model resource="ArbreA" transform="translate(114.78266596596,203.99980471835,0)*rotateZ(101.71)*scale(1.0447325076682,1.0447325076682,1.0447325076682)"/>
+        <model resource="ArbreC" transform="translate(131.63851508738,186.60711326309,0)*rotateZ(-13.66516230298)*scale(0.65849333410772,0.65849333410772,0.65849333410772)"/>
+        <model resource="ArbreC" transform="translate(47.533209937024,-196.66591153631,0)*rotateZ(-76.371350633729)*scale(0.65849337743189,0.65849337743189,0.65849337743189)"/>
+        <model resource="ArbreB" transform="translate(-11.6808279579,-129.48868454166,0)*rotateZ(253.68070253397)*scale(0.72923473032246,0.72923473032246,0.72923473032246)"/>
+        <model resource="ArbreA" transform="translate(-191.68468518475,-28.948777908867,0)*rotateZ(101.71)*scale(0.9141426379784,0.9141426379784,0.9141426379784)"/>
+        <model resource="ArbreC" transform="translate(-5.1452342316199,-156.91121704103,0)*rotateZ(196.17423747207)*scale(0.65849275000201,0.65849275000201,0.65849275000201)"/>
+        <model resource="ArbreA" transform="translate(-53.495342044356,-129.70686676782,0)*rotateZ(38.728997092546)*scale(0.91414312854986,0.91414312854986,0.91414312854986)"/>
+        <model resource="ArbreA" transform="translate(-40.066960682954,-183.0942509128,0)*rotateZ(86.743093415783)*scale(0.91413906707599,0.91413906707599,0.91413906707599)"/>
+        <model resource="ArbreC" transform="translate(-41.983331959625,233.6051021518,0)*rotateZ(-48.519137173211)*scale(0.65849342194123,0.65849342194123,0.65849342194123)"/>
+        <model resource="ArbreB" transform="translate(-13.211181866148,205.74138041861,0)*rotateZ(224.95328154485)*scale(0.72923173835222,0.72923173835222,0.72923173835222)"/>
+        <model resource="ArbreB" transform="translate(-180.9741622792,128.11157944402,0)*rotateZ(205.2311718021)*scale(0.72923608716067,0.72923608716067,0.72923608716067)"/>
+        <model resource="ArbreC" transform="translate(-212.11239413033,48.304574347031,0)*rotateZ(113.30035670653)*scale(0.65849290430181,0.65849290430181,0.65849290430181)"/>
+        <model id="B4" resource="Officev3" transform="translate(-93.509109803575,152.92117370772,0)*rotateZ(101.71)*scale(0.59991826328213,0.59991826328213,0.59991826328213)"/>
+        <model id="B3" resource="Mall" transform="translate(-104.66321316179,-52.517404544594,0)*rotateZ(101.71)*scale(0.59468125035758,0.59468125035758,0.59468125035758)"/>
+        <model id="B1" resource="Musee" transform="translate(139.1478493661,88.803644046272,0)*rotateZ(101.71)*scale(0.59192140507954,0.59192140507954,0.59192140507954)"/>
+        <model id="outside-lonepine" resource="ArbreC" transform="translate(-18.462779148628,2.3195982563021,0)*rotateZ(196.17427748498)*scale(0.68573883561897,0.68573883561897,0.68573883561897)"/>
+      </layer>
+      <limits>
+        <min lat="45.737933" lon="4.877304" height="0.0"/>
+        <max lat="45.744466" lon="4.887069" height="50.0"/>
+      </limits>
+    </dataset>
+  </datasets>
+</vgconfig>

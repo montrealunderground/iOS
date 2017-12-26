@@ -1,0 +1,6 @@
+framework module Pods_MontrealUITests {
+  umbrella header "Pods-MontrealUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

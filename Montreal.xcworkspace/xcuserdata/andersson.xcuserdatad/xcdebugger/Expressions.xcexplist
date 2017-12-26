@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LogInViewController.(facebookLogInAction(Any) -&gt; ()).(closure #1).(closure #1):LogInViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LogInViewController.(facebookLogInAction(Any) -&gt; ()).(closure #1):LogInViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LogInViewController.(moveToMainScreenWithRegistration(name : String!, userid : String!, accessToken : String!, photourl : String!, isfb : Bool!) -&gt; ()).(closure #1):LogInViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewController.viewDidLoad() -&gt; ():ProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Constants.profileImgUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LeftMenuViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:LeftMenuViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell!.imageView">
+            </PersistentString>
+            <PersistentString
+               value = "cell!.textLabel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

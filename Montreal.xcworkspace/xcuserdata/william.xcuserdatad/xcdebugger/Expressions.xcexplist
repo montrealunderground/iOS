@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LogInViewController.sign(GIDSignIn!, didSignInFor : GIDGoogleUser!, withError : Error!) -&gt; ():LogInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "signIn.currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[pARkViewController onShare:]:pARkViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "InfiniteTableViewCell.collectionView(UICollectionView, dequeueForItemAt : IndexPath, cellForItemAt : IndexPath) -&gt; UICollectionViewCell:HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.homeVC.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewController.updateBalance() -&gt; ():ProfileViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "-[pARkViewController didTapLabelWithGesture:]:pARkViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[LocationMapViewController reload:]:LocationMapViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapView.region">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.respondToTapGesture(UITapGestureRecognizer) -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ARListViewController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():ARListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShareViewController.facebookAction(Any) -&gt; ():ShareViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.currentVC">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[pARkViewController generateDetailInfoFromPromotions]:pARkViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_promotions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AugmentedViewController updatePlaceOverlayPositions]:AugmentedViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "place.coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

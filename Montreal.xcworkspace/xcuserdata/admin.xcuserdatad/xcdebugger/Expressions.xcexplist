@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LogInViewController.viewDidLoad() -&gt; ():LogInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gg.currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LogInViewController.sign(GIDSignIn!, didSignInFor : GIDGoogleUser!, withError : Error!) -&gt; ():LogInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "signIn.currentUser.profile">
+            </PersistentString>
+            <PersistentString
+               value = "signIn.currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LeftMenuViewController.viewWillAppear(Bool) -&gt; ():LeftMenuViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Constants.profileBalance">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LogInViewController.sign(GIDSignIn!, present : UIViewController!) -&gt; ():LogInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "signIn.currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vglicense version="2">
+	<keys>
+		<key>
+			<!-- License for PROD SDKv2 (NEVER expires) -->
+			<license id="prod-ios-android" timeStamp="20160822143123000000"/>
+			<secret code="/JWmYfbWPdNyQBPyCw2J/A=="/>
+
+			<machine code="*" expirationDate="never"/>
+
+			<sdk id="VisioDevKit/2.0/iPhone/OGLES" expirationDate="never"/>
+			<sdk id="VisioDevKit/2.0/iPhoneSimulator/OGLES" expirationDate="never"/>
+			<sdk id="VisioDevKit/2.0/Android/OGLES" expirationDate="never"/>
+			<sdk id="VisioDevKit/2.0/Android(ARM)/OGLES" expirationDate="never"/>
+
+			<data id="visioislandessential.outside.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B1-UL00.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B2-LL01.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B2-UL01.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B2-UL00.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B3-LL01.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B3-UL00.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B3-UL01.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B4-UL00.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B4-UL01.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B4-UL02.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B4-UL03.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B4-UL04.20160822" expirationDate="never"/>
+			<data id="visioislandessential.B4-UL05.20160822" expirationDate="never"/>
+
+			<token name="com.visioglobe.modules.3d" value="1" expirationDate="never"/>
+			<token name="com.visioglobe.modules.map" value="1" expirationDate="never"/>
+			<token name="com.visioglobe.modules.routing" value="1" expirationDate="never"/>
+			<token name="com.visioglobe.modules.navigation" value="1" expirationDate="never"/>
+
+			<check code="Up/jTn/tLOBOrr6ShRJ6Lg=="/>
+		</key>
+	</keys>
+</vglicense>

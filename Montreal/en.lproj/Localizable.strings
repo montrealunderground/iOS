@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  Montreal
+
+  Created by William Andersson on 3/12/17.
+  Copyright © 2017 William Andersson. All rights reserved.
+*/
+
+//Left Menu Controller
+"Home" = "Home";
+"Underground Map" = "Underground Map";
+"Metro Plan" = "Metro Plan";
+"Events" = "Events";
+"Promotions" = "Promotions";
+"Facebook page" = "Facebook page";
+"Feedback" = "Feedback";
+"Contact us" = "Contact us";
+
+//Home Controller
+"Underground Map" = "Underground Map";
+"Shopping Malls" = "Shopping Malls";
+"Restaurants" = "Restaurants";
+"Boutiques" = "Boutiques";
+"Beauty & Health" = "Beauty & Health";
+"Attractions" = "Attractions";
+"Services & Jobs" = "Services & Jobs";
+"Hotels" = "Hotels";
+"Events" = "Events";
+"Promotions" = "Promotions";
+
+//All Malls Controller
+"All Malls" = "All Malls";
+"Rent a Space" = "Rent a Space";
+
+"You have redeemed %s" = "You have redeemed %s";
+"Redeem Success!" = "Redeem Success!"
+

@@ -1,0 +1,781 @@
+{
+    "machine": {
+        "initialState": "updateBundle",
+        "transitions": {
+            "updateBundle": [
+                {
+                    "signal": "BundleReady",
+                    "newState": "loadMap"
+                },
+                {
+                    "signal": "Error",
+                    "newState": "error"
+                }
+            ],
+            "loadMap": [
+                {
+                    "signal": "MapLoaded",
+                    "newState": "loadParameters"
+                },
+                {
+                    "signal": "Error",
+                    "newState": "error"
+                }
+            ],
+            "loadParameters": [
+                {
+                    "signal": "ParametersLoaded",
+                    "newState": "selectDataset"
+                },
+                {
+                    "signal": "Error",
+                    "newState": "error"
+                }
+            ],
+            "selectDataset": [
+                {
+                    "signal": "DatasetSelected",
+                    "newState": "map"
+                },
+                {
+                    "signal": "RouteRequest",
+                    "newState": "route"
+                },
+                {
+                    "signal": "Error",
+                    "newState": "error"
+                }
+            ],
+            "map": [
+                {
+                    "signal": "PlaceInfo",
+                    "newState": "placeInfo"
+                },
+                {
+                    "signal": "LocatePlaceRequest",
+                    "newState": "locatePlace"
+                },
+                {
+                    "signal": "RouteSetupViewRequest",
+                    "newState": "routeSetup"
+                },
+                {
+                    "signal": "RouteRequest",
+                    "newState": "route"
+                },
+                {
+                    "signal": "Error",
+                    "newState": "error"
+                }
+            ],
+            "locatePlace": [
+                {
+                    "signal": "MapRequest",
+                    "newState": "map"
+                },
+                {
+                    "signal": "PlaceInfo",
+                    "newState": "placeInfo"
+                },
+                {
+                    "signal": "RouteSetupViewRequest",
+                    "newState": "routeSetup"
+                }
+            ],
+            "routeSetup": [
+                {
+                    "signal": "MapRequest",
+                    "newState": "map"
+                },
+                {
+                    "signal": "PlaceInfo",
+                    "newState": "placeInfo"
+                },
+                {
+                    "signal": "LocatePlaceRequest",
+                    "newState": "locatePlace"
+                },
+                {
+                    "signal": "RouteRequest",
+                    "newState": "route"
+                }
+            ],
+            "placeInfo": [
+                {
+                    "signal": "PlaceInfo",
+                    "newState": "placeInfo"
+                },
+                {
+                    "signal": "MapRequest",
+                    "newState": "map"
+                },
+                {
+                    "signal": "LocatePlaceRequest",
+                    "newState": "locatePlace"
+                },
+                {
+                    "signal": "RouteSetupViewRequest",
+                    "newState": "routeSetup"
+                },
+                {
+                    "signal": "RouteRequest",
+                    "newState": "route"
+                },
+                {
+                    "signal": "Error",
+                    "newState": "error"
+                }
+            ],
+            "route": [
+                {
+                    "signal": "RouteFinish",
+                    "newState": "map"
+                },
+                {
+                    "signal": "RouteSetupViewRequest",
+                    "newState": "routeSetup"
+                },
+                {
+                    "signal": "RouteRequest",
+                    "newState": "route"
+                }
+            ],
+            "error": []
+        }
+    },
+    "components": [
+        {
+            "id": "bundleUpdater",
+            "class": "VMEBundleUpdater",
+            "handles": [
+                {
+                    "signal": "State"
+                }
+            ]
+        },
+        {
+            "id": "parametersLoader",
+            "class": "VMEParametersLoader",
+            "handles": [
+                {
+                    "signal": "State"
+                },
+                {
+                    "signal": "BundleReady"
+                }
+            ],
+            "components": [
+                {
+                    "id": "placeDataSource",
+                    "class": "VMEPlaceDataSource",
+                    "handles": [
+                        {
+                            "signal": "MapLoaded"
+                        },
+                        {
+                            "signal": "MapListener"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "uiChoreographer",
+            "class": "VMEUiChoreographer",
+            "handles": [
+                {
+                    "signal": "State"
+                },
+                {
+                    "signal": "ParametersLoaded"
+                }
+            ],
+            "components": [
+                {
+                    "id": "splashView",
+                    "class": "VMESplashView",
+                    "handles": [
+                        {
+                            "signal": "State"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "sceneView",
+                    "class": "VMESceneView",
+                    "handles": [
+                        {
+                            "signal": "State"
+                        },
+                        {
+                            "signal": "BundleReady"
+                        },
+                        {
+                            "signal": "CompassData"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        },
+                        {
+                            "signal": "Explore"
+                        },
+                        {
+                            "signal": "MapListener"
+                        },
+                        {
+                            "signal": "SurfaceChanged"
+                        }
+                    ]
+                },
+                {
+                    "id": "placeInfoView",
+                    "class": "VMEPlaceInfoView",
+                    "handles": [
+                        {
+                            "signal": "PlaceInfo"
+                        },
+                        {
+                            "signal": "PlaceDataLoaded"
+                        },
+                        {
+                            "signal": "RouteSetupFinish"
+                        },
+                        {
+                            "signal": "MapLoaded"
+                        },
+                        {
+                            "signal": "State"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "selectorView",
+                    "class": "VMESelectorView",
+                    "handles": [
+                        {
+                            "signal": "Explore"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        },
+                        {
+                            "signal": "MapInteraction"
+                        }
+                    ]
+                },
+                {
+                    "id": "locatePlaceButtonView",
+                    "class": "VMELocatePlaceButtonView",
+                    "handles": [
+                        {
+                            "signal": "LocatePlaceFinish"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "locatePlaceView",
+                    "class": "VMELocatePlaceView",
+                    "handles": [
+                        {
+                            "signal": "ParametersLoaded"
+                        },
+                        {
+                            "signal": "PlaceDataLoaded"
+                        },
+                        {
+                            "signal": "LocatePlaceRequest"
+                        },
+                        {
+                            "signal": "PlaceDataAdded"
+                        },
+                        {
+                            "signal": "PlaceDataUpdated"
+                        },
+                        {
+                            "signal": "PlaceDataRemoved"
+                        }
+                    ]
+                },
+                {
+                    "id": "routeSetupView",
+                    "class": "VMERouteSetupView",
+                    "handles": [
+                        {
+                            "signal": "PlaceDataLoaded"
+                        },
+                        {
+                            "signal": "RouteSetupViewRequest"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        },
+                        {
+                            "signal": "ComputeRouteFinish"
+                        },
+                        {
+                            "signal": "LocatePlaceFinish"
+                        },
+                        {
+                            "signal": "MapLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "routeView",
+                    "class": "VMERouteView",
+                    "handles": [
+                        {
+                            "signal": "RouteRequest"
+                        },
+                        {
+                            "signal": "RouteFinish"
+                        },
+                        {
+                            "signal": "RouteSetupViewFinish"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "compassView",
+                    "class": "VMECompassView",
+                    "handles": [
+                        {
+                            "signal": "DatasetSelected"
+                        },
+                        {
+                            "signal": "CompassState"
+                        },
+                        {
+                            "signal": "CompassData"
+                        },
+                        {
+                            "signal": "FrameDrawn"
+                        },
+                        {
+                            "signal": "MapLoaded"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "navigationView",
+                    "class": "VMENavigationView",
+                    "handles": [
+                        {
+                            "signal": "Navigation"
+                        },
+                        {
+                            "signal": "Instruction"
+                        },
+                        {
+                            "signal": "PlaceDataLoaded"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "locationTrackerView",
+                    "class": "VMELocationTrackerView",
+                    "handles": [
+                        {
+                            "signal": "LocationTrackerState"
+                        },
+                        {
+                            "signal": "LocationData"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                },
+                {
+                    "id": "errorView",
+                    "class": "VMEErrorView",
+                    "handles": [
+                        {
+                            "signal": "Error"
+                        },
+                        {
+                            "signal": "ParametersLoaded"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "compassDataSource",
+            "class": "VMECompassDataSource",
+            "handles": [
+                {
+                    "signal": "CompassRequest"
+                },
+                {
+                    "signal": "MapInteraction"
+                }
+            ]
+        },
+        {
+            "id": "exploreSolver",
+            "class": "VMEExploreSolver",
+            "handles": [
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "DatasetSelected"
+                },
+                {
+                    "signal": "ExploreRequest"
+                },
+                {
+                    "signal": "PositionUtilsReady"
+                },
+                {
+                    "signal": "PlaceDataLoaded"
+                }
+            ]
+        },
+        {
+            "id": "resourceManager",
+            "class": "VMEResourceManager",
+            "handles": [
+                {
+                    "signal": "BundleReady"
+                },
+                {
+                    "signal": "MapLoaded"
+                }
+            ]
+        },
+        {
+            "id": "routeComputer",
+            "class": "VMERouteComputer",
+            "handles": [
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "ComputeRouteRequest"
+                },
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "PlaceDataLoaded"
+                }
+            ]
+        },
+        {
+            "id": "buildingOverlay",
+            "class": "VMEBuildingOverlay",
+            "handles": [
+                {
+                    "signal": "Explore"
+                },
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "MapLoaded"
+                }
+            ]
+        },
+        {
+            "id": "placeOverlay",
+            "class": "VMEPlaceOverlay",
+            "handles": [
+                {
+                    "signal": "PlaceDataLoaded"
+                },
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "PlaceDataUpdated"
+                },
+                {
+                    "signal": "DatasetSelected"
+                }
+            ]
+        },
+        {
+            "id": "markerOverlay",
+            "class": "VMEMarkerOverlay",
+            "handles": [
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "PlaceInfo"
+                },
+                {
+                    "signal": "State"
+                }
+            ]
+        },
+        {
+            "id": "locatePlaceAPIBridge",
+            "class": "VMELocatePlaceAPIBridge",
+            "handles": [
+                {
+                    "signal": "LocatePlaceFinish"
+                }
+            ]
+        },
+        {
+            "id": "exploreRequestAPIBridge",
+            "class": "VMEExploreRequestAPIBridge",
+            "handles": []
+        },
+        {
+            "id": "computeRouteAPIBridge",
+            "class": "VMEComputeRouteAPIBridge",
+            "handles": [
+                {
+                    "signal": "ComputeRouteFinish"
+                }
+            ]
+        },
+        {
+            "id": "routeOverlay",
+            "class": "VMERouteOverlay",
+            "handles": [
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "RouteRequest"
+                },
+                {
+                    "signal": "State"
+                },
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "Navigation"
+                },
+                {
+                    "signal": "Instruction"
+                }
+            ]
+        },
+        {
+            "id": "navigationController",
+            "class": "VMENavigationController",
+            "handles": [
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "RouteRequest"
+                },
+                {
+                    "signal": "RouteFinish"
+                },
+                {
+                    "signal": "InstructionRequest"
+                },
+                {
+                    "signal": "Instruction"
+                },
+                {
+                    "signal": "LocationData"
+                },
+                {
+                    "signal": "LocationTrackerState"
+                },
+                {
+                    "signal": "PositionUtilsReady"
+                }
+            ]
+        },
+        {
+            "id": "routeController",
+            "class": "VMERouteController",
+            "handles": [
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "RouteRequest"
+                },
+                {
+                    "signal": "RouteFinish"
+                },
+                {
+                    "signal": "Navigation"
+                },
+                {
+                    "signal": "LocationData"
+                },
+                {
+                    "signal": "ComputeRouteFinish"
+                },
+                {
+                    "signal": "State"
+                }
+            ]
+        },
+        {
+            "id": "cameraDrivenExplorer",
+            "class": "VMECameraDrivenExplorer",
+            "handles": [
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "MapInteraction"
+                },
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "Explore"
+                },
+                {
+                    "signal": "SurfaceChanged"
+                }
+            ]
+        },
+        {
+            "id": "locationTracker",
+            "class": "VMELocationTracker",
+            "handles": [
+                {
+                    "signal": "LocationData"
+                },
+                {
+                    "signal": "LocationTrackerRequest"
+                },
+                {
+                    "signal": "MapInteraction"
+                },
+                {
+                    "signal": "MapLoaded"
+                }
+            ]
+        },
+        {
+            "id": "locationAPIBridge",
+            "class": "VMELocationAPIBridge",
+            "handles": [
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "ParametersLoaded"
+                }
+            ]
+        },
+        {
+            "id": "locationOverlay",
+            "class": "VMELocationOverlay",
+            "handles": [
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "LocationData"
+                },
+                {
+                    "signal": "CompassData"
+                },
+                {
+                    "signal": "CompassState"
+                }
+            ]
+        },
+        {
+            "id": "routeSetupController",
+            "class": "VMERouteSetupController",
+            "handles": [
+                {
+                    "signal": "LocationData"
+                },
+                {
+                    "signal": "RouteSetupRequest"
+                },
+                {
+                    "signal": "RouteSetupViewFinish"
+                },
+                {
+                    "signal": "ComputeRouteFinish"
+                }
+            ]
+        },
+        {
+            "id": "overlayViewManager",
+            "class": "VMEOverlayViewManager",
+            "handles": [
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "Explore"
+                }
+            ]
+        },
+        {
+            "id": "placeInfoSolver",
+            "class": "VMEPlaceInfoSolver",
+            "handles": [
+                {
+                    "signal": "PlaceInfoRequest"
+                },
+                {
+                    "signal": "MapListener"
+                },
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "ParametersLoaded"
+                },
+                {
+                    "signal": "PlaceDataLoaded"
+                }
+            ]
+        },
+        {
+            "id": "utilsController",
+            "class": "VMEUtilsController",
+            "handles": [
+                {
+                    "signal": "MapLoaded"
+                },
+                {
+                    "signal": "ParametersLoaded"
+                }
+            ]
+        }
+    ]
+}
